@@ -1,75 +1,28 @@
-Formulario HTML5
+Formulario HTML5 + Mini-Tienda Demo
 
 Formulario demostrativo que utiliza diferentes tipos de controles introducidos en HTML5, junto con validaciones nativas del navegador.
+Además, este proyecto incorpora una mini-tienda funcional creada con HTML, Bootstrap y JavaScript, incluyendo un sistema de carrito, vista de productos, modal interactivo y búsqueda.
 
-📌 Descripción
+ Descripción
 
-Este proyecto contiene una página web con un formulario que incluye múltiples campos de entrada (texto, email, URL, fechas, color, búsqueda, etc.).
-Su propósito es practicar el uso de elementos modernos de formularios HTML5 y comprender cómo se comportan con el método de envío GET.
+Este proyecto contiene:
 
-📁 Estructura del proyecto
-/
-└── index.html
+✔ Un formulario HTML5 completo, que incluye múltiples campos de entrada (texto, email, URL, fechas, color, búsqueda, etc.), pensado para practicar elementos modernos y verificar cómo se comportan con el método GET del navegador.
 
-✨ Funcionalidades del formulario
+✔ Una mini-tienda web, que incluye:
 
-El formulario incluye los siguientes campos:
+Lista de productos generada dinámicamente.
 
-Nombre (texto, obligatorio, autofocus)
+Modal con imagen ampliada, descripción y opción para agregar al carrito.
 
-Correo electrónico (email, obligatorio)
+Vista individual de producto con detalles completos.
 
-URL personal (url, con texto de ayuda)
+Carrito funcional con persistencia en localStorage.
 
-Fecha (date)
+Contador de productos del carrito visible en la barra de navegación.
 
-Hora (time)
+Buscador de productos por título o descripción.
 
-Fecha y hora (datetime-local)
+Actualización automática de precios, cantidades y totales.
 
-Mes (month)
-
-Semana (week)
-
-Número (number, rango -10 a 10)
-
-Teléfono (tel)
-
-Término de búsqueda (search)
-
-Color favorito (color)
-
-Botón de envío
-
-El formulario usa:
-
-method="GET"
-
-action="" (envía los datos a la misma página)
-
-🚀 Cómo ejecutar
-
-Clona este repositorio
-
-git clone https://github.com/tu-usuario/tu-repo.git
-
-
-Abre la carpeta en tu editor (VS Code recomendado).
-
-Abre index.html en tu navegador o usa Live Server para mayor comodidad.
-
-🧠 Objetivo
-
-Practicar y comprender:
-
-Inputs HTML5 modernos
-
-Validaciones nativas del navegador
-
-Parámetros enviados por GET
-
-Diseño básico de formularios web
-
-📄 Licencia
-
-Este proyecto se encuentra bajo la licencia MIT. Puedes usarlo libremente para estudiar o extenderlo.
+Ambas partes conviven dentro de la misma página para fines didácticos.
