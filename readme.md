@@ -8,6 +8,7 @@ Descripción
 Este proyecto contiene:
 
 ✔ Un formulario HTML5 completo, que incluye múltiples campos de entrada (texto, email, URL, fechas, color, búsqueda, etc.), pensado para practicar elementos modernos y verificar cómo se comportan con el método GET del navegador.
+
 ✔ Una mini-tienda web, que incluye:
 
 Lista de productos generada dinámicamente.
